@@ -30,29 +30,32 @@ Comprehensive test cases to ensure correctness and reliability.
 Clone the repository:
 -
 ```sh
-_git clone https://github.com/Jakowicki/Libft-42.git_
+git clone https://github.com/Jakowicki/Libft-42.git
 ```
 Navigate to the project directory:
 -
+```sh
 cd libft
-
+```
 Compile the library:
 -
+```sh
 make
-
+```
 Usage 🚀
 -
 To use the compiled library in your own projects, include the libft.h header file and link the compiled library:
 
 Include the header in your source files:
 -
+```c
 #include "libft.h"
-
+```
 Compile your project with the libft library:
 -
-
+```sh
 gcc -o your_program your_program.c -L. -lft
-
+```
 ## Implemented Functions 🛠️
 
 #### Part 1 - Libc Functions ✅
