@@ -1,43 +1,43 @@
-Libft Project - README 📚
-=
-Project Overview 🌟
--
+# Libft Project 📚
+
+## Project Overview 🌟
+
 Welcome to the Libft Project! This project is a custom implementation of several essential functions from the C standard library, along with some additional utility functions. The goal is to re-create commonly used library functions from scratch, providing a deeper understanding of their inner workings and improving programming skills in C.
 
-Table of Contents 📑
--
-Introduction
-Features
-Setup and Installation
-Usage
-Implemented Functions
-Contributing
-License
+## Table of Contents 📑
 
-Introduction 📖
--
+- Introduction
+- Features
+- Setup and Installation
+- Usage
+- Implemented Functions
+- Contributing
+- License
+
+## Introduction 📖
+
 The Libft Project involves writing your own versions of a variety of standard C library functions, as well as some additional helper functions. This project is a fundamental part of many C programming curriculums and is an excellent way to solidify your understanding of low-level programming concepts.
 
-Features ✨
--
+## Features ✨
+
 Custom implementations of many standard C library functions.
 Additional utility functions for string manipulation, memory allocation, and linked list operations.
 Modular and reusable code suitable for integration into other projects.
 Comprehensive test cases to ensure correctness and reliability.
 
-Setup and Installation ⚙️
--
+## Setup and Installation ⚙️
+
 Clone the repository:
-sh
-Copy code
+-
+```sh
 _git clone https://github.com/Jakowicki/Libft-42.git_
+```
 Navigate to the project directory:
-sh
-Copy code
+-
 cd libft
+
 Compile the library:
-sh
-Copy code
+-
 make
 
 Usage 🚀
@@ -45,118 +45,110 @@ Usage 🚀
 To use the compiled library in your own projects, include the libft.h header file and link the compiled library:
 
 Include the header in your source files:
-
-c
-
-Copy code
-
+-
 #include "libft.h"
 
 Compile your project with the libft library:
-
-sh
-
-Copy code
+-
 
 gcc -o your_program your_program.c -L. -lft
 
-Implemented Functions 🛠️
--
-Part 1 - Libc Functions ✅
--
+## Implemented Functions 🛠️
 
--memset
+#### Part 1 - Libc Functions ✅
 
--bzero
 
--memcpy
+- memset
 
--memccpy
+- bzero
 
--memmove
+- memcpy
 
--memchr
+- memccpy
 
--memcmp
+- memmove
 
--strlen
+- memchr
 
--strlcpy
+- memcmp
 
--strlcat
+- strlen
 
--strchr
+- strlcpy
 
--strrchr
+- strlcat
 
--strnstr
+- strchr
 
--strncmp
+- strrchr
 
--atoi
+- strnstr
 
--isalpha
+- strncmp
 
--isdigit
+- atoi
 
--isalnum
+- isalpha
 
--isascii
+- isdigit
 
--isprint
+- isalnum
 
--toupper
+- isascii
 
--tolower
+- isprint
 
-Part 2 - Additional Functions ✅
--
--substr
+- toupper
 
--strjoin
+- tolower
 
--strtrim
+#### Part 2 - Additional Functions ✅
 
--split
+- substr
 
--itoa
+- strjoin
 
--strmapi
+- strtrim
 
--putchar_fd
+- split
 
--putstr_fd
+- itoa
 
--putendl_fd
+- strmapi
 
--putnbr_fd
+- putchar_fd
 
-Part 3 - Bonus Functions (Linked List) ❌
--
--lstnew
+- putstr_fd
 
--lstadd_front
+- putendl_fd
 
--lstsize
+- putnbr_fd
 
--lstlast
+#### Part 3 - Bonus Functions (Linked List) ❌
 
--lstadd_back
+- lstnew
 
--lstdelone
+- lstadd_front
 
--lstclear
+- lstsize
 
--lstiter
+- lstlast
 
--lstmap
+- lstadd_back
 
-Contributing 🤝
--
+- lstdelone
+
+- lstclear
+
+- lstiter
+
+- lstmap
+
+## Contributing 🤝
+
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the coding standards and include appropriate tests.
 
-License 📜
--
+## License 📜
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Thank you for checking out the Libft Project! Happy coding! 🎉
